@@ -1,4 +1,7 @@
 
+*{
+    margin: 0%;
+}
 body{
     margin: 0;
     padding: 0;
@@ -14,5 +17,16 @@ header{
 }
 .dos{
 background: #5567ca;
-padding:  20px; sold  ; 
+padding:  20px;   ; 
+}
+nav{
+    padding: 0;
+    background: #c73535;
+    padding: 14px ;
+}
+
+footer img{
+    width: 50%;
+    height: 50%;
+    
 }
