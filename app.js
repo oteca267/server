@@ -3,4 +3,6 @@ const app = express();
 
 app.use(express.static('public'))
 
-app.listen(3000,() => console.log('server on port 3000'));
+app.listen(3000,function (){
+    console.log('server on port 3000')
+});
