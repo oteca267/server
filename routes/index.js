@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req , res) => {
-    res.end('hello word')
+router.get('/', (req,res) => {
+  res.render('index',{
+      title: 'My WebStore'
+  })
 });
-
 
 module.exports = router;
