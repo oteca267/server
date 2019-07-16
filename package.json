@@ -11,7 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.19.1"
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
