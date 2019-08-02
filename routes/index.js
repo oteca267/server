@@ -7,4 +7,10 @@ router.get('/', (req,res) => {
   })
 });
 
+router.get('/products', (req, res, next) =>{
+  res.render('products',{
+    title: 'list of products'
+  })
+})
+
 module.exports = router;

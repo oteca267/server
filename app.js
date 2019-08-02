@@ -3,7 +3,7 @@ const path = require('path');
 const bodyparser = require('body-parser');
 const app = express();
 
-
+const routes = require( './routes/index.js');
 
 const routes = require('./routes/index');
 
