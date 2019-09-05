@@ -1,32 +1,29 @@
-
 *{
-    margin: 0%;
-}
-body{
-    margin: 0;
-    padding: 0;
-    font-family: system-ui;
-}
-
-header{
-    width: 100%;
-    padding: 12px 0;
-    background: #8756ca;
-    color: white;
+   list-style: none;
+    margin: auto;
     text-align: center;
-}
-.dos{
-background: #5567ca;
-padding:  20px;   ; 
-}
-nav{
-    padding: 0;
-    background: #c73535;
-    padding: 14px ;
+    
 }
 
-footer img{
-    width: 50%;
-    height: 50%;
-    
+.title{
+    padding: 1%;
+    border: 1px solid black;
+    text-align: center; 
+    font-size: 28px;
+  
+}
+.registro-container{
+    border: 12px blue;
+    display: flex;
+    padding: 2%;
+}
+
+.isquierda{
+    display: left ;
+    padding: 12px;
+    border: 1px solid black;
+    margin: 12px;  
+}
+.abajo{
+    padding: 2;
 }
